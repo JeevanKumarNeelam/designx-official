@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design X — Digital Agency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ░░ PRELOADER ░░ -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <span class="pre-logo">Design<span>X</span></span>
+      <div class="pre-bar"><div class="pre-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Design<span>X</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge"><span class="badge-dot"></span> Available for projects</div>
+      <h1 class="hero-title">
+        We Build<br/>
+        <span class="gradient-text">Digital Experiences</span><br/>
+        That Convert.
+      </h1>
+      <p class="hero-sub">From pixel-perfect design to powerful web apps — Design X turns your vision into high-performance digital products that grow your business.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View Our Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="150">0</span><span class="stat-plus">+</span><p>Projects Delivered</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span><p>Client Satisfaction</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="6">0</span><span class="stat-plus">+</span><p>Years Experience</p></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span>Graphic Design</span><span class="dot">✦</span>
+        <span>Web Development</span><span class="dot">✦</span>
+        <span>App Development</span><span class="dot">✦</span>
+        <span>E-Commerce</span><span class="dot">✦</span>
+        <span>Business Automation</span><span class="dot">✦</span>
+        <span>UI/UX Design</span><span class="dot">✦</span>
+        <span>Brand Identity</span><span class="dot">✦</span>
+        <span>SEO & Marketing</span><span class="dot">✦</span>
+        <!-- duplicate for seamless loop -->
+        <span>Graphic Design</span><span class="dot">✦</span>
+        <span>Web Development</span><span class="dot">✦</span>
+        <span>App Development</span><span class="dot">✦</span>
+        <span>E-Commerce</span><span class="dot">✦</span>
+        <span>Business Automation</span><span class="dot">✦</span>
+        <span>UI/UX Design</span><span class="dot">✦</span>
+        <span>Brand Identity</span><span class="dot">✦</span>
+        <span>SEO & Marketing</span><span class="dot">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ SERVICES ░░ -->
+  <section id="services" class="services section-pad">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">What We Do</span>
+        <h2 class="section-title">Services Built<br/>for <span class="gradient-text">Growth</span></h2>
+        <p class="section-desc">We combine strategy, design, and technology to craft digital products that stand out and perform.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-index="01">
+          <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <h3>Graphic Design</h3>
+          <p>Logos, brand kits, marketing collateral, and visual identities that make a lasting first impression.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-index="02">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive, and accessible websites built with modern tech stacks — from landing pages to full platforms.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card featured" data-index="03">
+          <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <h3>Application Development</h3>
+          <p>Native and cross-platform mobile apps engineered for scale, speed, and seamless user experience.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-index="04">
+          <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h3>E-Commerce Solutions</h3>
+          <p>Custom Shopify, WooCommerce, or bespoke stores built to convert browsers into buyers and buyers into fans.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-index="05">
+          <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Business Automation</h3>
+          <p>Streamline workflows, reduce manual work, and scale faster with smart automation tailored to your processes.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-index="06">
+          <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>User research, wireframes, and high-fidelity prototypes that put the human experience at the centre of every decision.</p>
+          <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="about section-pad">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-img-wrap">
+          <div class="about-img-bg"></div>
+          <div class="about-img-card">
+            <div class="about-floating-badge">
+              <i class="fa-solid fa-star"></i>
+              <span>Top Rated Agency 2024</span>
+            </div>
+          </div>
+          <div class="about-exp-badge">
+            <span class="exp-num">6+</span>
+            <span class="exp-label">Years in Business</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-eyebrow">About Us</span>
+        <h2 class="section-title">We're a Team of<br/><span class="gradient-text">Digital Craftsmen</span></h2>
+        <p class="about-text">Design X is a full-service digital agency driven by one simple belief: great design and great engineering are inseparable. We partner with startups, SMEs, and enterprises to build products that look exceptional and work flawlessly.</p>
+        <p class="about-text">Every project we take on gets our full attention — no assembly-line output, no cookie-cutter templates. Just thoughtful, purposeful work built around your goals.</p>
+        <div class="about-pills">
+          <span class="pill"><i class="fa-solid fa-check"></i> Strategy-first approach</span>
+          <span class="pill"><i class="fa-solid fa-check"></i> Pixel-perfect execution</span>
+          <span class="pill"><i class="fa-solid fa-check"></i> On-time delivery</span>
+          <span class="pill"><i class="fa-solid fa-check"></i> Post-launch support</span>
+        </div>
+        <a href="#contact" class="btn btn-primary">Work With Us <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ WORK / PORTFOLIO ░░ -->
+  <section id="work" class="work section-pad">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Work</span>
+        <h2 class="section-title">Selected<br/><span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">A glimpse at what we've been building for our clients.</p>
+      </div>
+      <div class="work-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="brand">Branding</button>
+        <button class="filter-btn" data-filter="ecom">E-Commerce</button>
+      </div>
+      <div class="work-grid">
+
+        <div class="work-card" data-category="web">
+          <div class="work-img" style="background: linear-gradient(135deg,#667eea,#764ba2);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-globe"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">Web Development</span>
+            <h4>NovaTech Corporate Website</h4>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="ecom">
+          <div class="work-img" style="background: linear-gradient(135deg,#f093fb,#f5576c);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">E-Commerce</span>
+            <h4>LuxeWear Fashion Store</h4>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="app">
+          <div class="work-img" style="background: linear-gradient(135deg,#4facfe,#00f2fe);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-mobile-screen"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">App Development</span>
+            <h4>FinPulse Finance App</h4>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="brand">
+          <div class="work-img" style="background: linear-gradient(135deg,#43e97b,#38f9d7);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-pen-nib"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">Brand Identity</span>
+            <h4>GreenRoot Organic Branding</h4>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="web">
+          <div class="work-img" style="background: linear-gradient(135deg,#fa709a,#fee140);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-laptop-code"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">Web Development</span>
+            <h4>SkyHigh SaaS Platform</h4>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="app">
+          <div class="work-img" style="background: linear-gradient(135deg,#a18cd1,#fbc2eb);">
+            <div class="work-overlay">
+              <a href="#" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <span class="work-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+          </div>
+          <div class="work-info">
+            <span class="work-tag">App Development</span>
+            <h4>MediTrack Health App</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROCESS ░░ -->
+  <section id="process" class="process section-pad">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">How We Work</span>
+        <h2 class="section-title">Our Proven<br/><span class="gradient-text">Process</span></h2>
+        <p class="section-desc">A clear, collaborative workflow from first call to final launch.</p>
+      </div>
+      <div class="process-timeline">
+
+        <div class="process-step">
+          <div class="process-num">01</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h3>Discovery</h3>
+            <p>We deep-dive into your business, goals, and audience to build a solid strategic foundation before any design begins.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">02</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+            <h3>Design</h3>
+            <p>From wireframes to high-fidelity mockups, we craft visual experiences that balance beauty and usability.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">03</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fa-solid fa-hammer"></i></div>
+            <h3>Build</h3>
+            <p>Our engineers bring designs to life with clean, scalable code — tested across devices and browsers.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">04</div>
+          <div class="process-content">
+            <div class="process-icon"><i class="fa-solid fa-rocket"></i></div>
+            <h3>Launch & Support</h3>
+            <p>We handle deployment, performance checks, and stay on hand post-launch to ensure everything runs perfectly.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TESTIMONIALS ░░ -->
+  <section id="testimonials" class="testimonials section-pad">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Client Love</span>
+        <h2 class="section-title">What Our Clients<br/><span class="gradient-text">Say</span></h2>
+      </div>
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Design X completely transformed our online presence. The new website is stunning and our leads doubled within the first month of launch."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">AK</div>
+              <div>
+                <strong>Arjun Kapoor</strong>
+                <span>CEO, NovaTech Solutions</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"The mobile app they built for us exceeded every expectation. Clean code, beautiful UI, and delivered two weeks ahead of schedule."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">SR</div>
+              <div>
+                <strong>Sophia Reynolds</strong>
+                <span>Product Manager, FinPulse</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Our e-commerce revenue grew by 40% after Design X revamped our store. They understood our customers better than we did."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">PM</div>
+              <div>
+                <strong>Priya Mehta</strong>
+                <span>Founder, LuxeWear</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"The automation workflows they set up saved us 30 hours a week. The ROI was visible within the first 3 weeks. Absolutely brilliant team."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">DL</div>
+              <div>
+                <strong>David Liang</strong>
+                <span>Operations Director, ScaleUp Co.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"From branding to full website — Design X handled everything end-to-end. The team is communicative, creative, and genuinely invested in your success."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">NR</div>
+              <div>
+                <strong>Nisha Reddy</strong>
+                <span>Co-Founder, GreenRoot</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-controls">
+          <button class="testi-btn" id="testiPrev"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-btn" id="testiNext"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TECH STACK ░░ -->
+  <section class="techstack section-pad">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Tools & Tech</span>
+        <h2 class="section-title">Technologies We<br/><span class="gradient-text">Work With</span></h2>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+        <div class="tech-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+        <div class="tech-item"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+        <div class="tech-item"><i class="fa-brands fa-shopify"></i><span>Shopify</span></div>
+        <div class="tech-item"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
+        <div class="tech-item"><i class="fa-brands fa-flutter"></i><span>Flutter</span></div>
+        <div class="tech-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+        <div class="tech-item"><i class="fa-brands fa-aws"></i><span>AWS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CTA BAND ░░ -->
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <div class="blob blob-cta-1"></div>
+      <div class="blob blob-cta-2"></div>
+    </div>
+    <div class="container cta-band-inner">
+      <h2 class="cta-band-title">Ready to Build Something <span class="gradient-text">Remarkable?</span></h2>
+      <p>Let's talk about your project — no pressure, just a conversation.</p>
+      <a href="#contact" class="btn btn-primary btn-lg">Start Your Project <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="contact section-pad">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-eyebrow">Contact Us</span>
+        <h2 class="section-title">Let's Build<br/><span class="gradient-text">Together</span></h2>
+        <p class="contact-desc">Have a project in mind? Fill out the form and we'll get back to you within 24 hours.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div><strong>Email</strong><span>hello@designxagency.com</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div><strong>Phone</strong><span>+91 98765 43210</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div><strong>Location</strong><span>Hyderabad, India</span></div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service">
+              <option value="">Select a service...</option>
+              <option>Graphic Design</option>
+              <option>Web Development</option>
+              <option>Application Development</option>
+              <option>E-Commerce Solutions</option>
+              <option>Business Automation</option>
+              <option>UI/UX Design</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-success" id="formSuccess">✅ Message sent! We'll be in touch within 24 hours.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Design<span>X</span></a>
+        <p>Crafting digital experiences that connect brands with their people.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Graphic Design</a></li>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">App Development</a></li>
+          <li><a href="#services">E-Commerce</a></li>
+          <li><a href="#services">Business Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Get in Touch</h5>
+        <ul>
+          <li><a href="mailto:hello@designxagency.com">hello@designxagency.com</a></li>
+          <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><span>Hyderabad, India</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Design X. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ BACK TO TOP ░░ -->
+  <button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
